@@ -1,5 +1,5 @@
 variable "region" {
-    default = "us-east-1"
+    default = "ap-south-1"
 }
 
 variable "vpc_cidr" {
@@ -19,7 +19,7 @@ variable "cidr_block_all_traffic" {
 }
 
 variable "ec2_key_name" {
-    default = "IAC_practice"  
+    default = "gangotri"  
 }
 
 variable "ports" {
